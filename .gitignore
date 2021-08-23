@@ -1,0 +1,9 @@
+# Dependencies
+package-lock.json
+yarn.lock
+node_modules
+.firebaserc
+# Build directories
+.firebase
+.cache
+dist

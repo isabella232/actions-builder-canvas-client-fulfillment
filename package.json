@@ -1,0 +1,22 @@
+{
+  "name": "interactive-canvas-client-fulfillment",
+  "version": "1.0.0",
+  "description": "Sample which shows how to use Interactive Canvas Client Fulfillment",
+  "author": "Google LLC",
+  "license": "Apache-2.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "parcel-bundler": "^1.12.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "scripts": {
+    "build": "parcel build public/index.html --public-url .",
+    "lint:css": "stylelint 'public/style.css'",
+    "lint:js": "eslint public/src/*.js",
+    "lint": "npm run lint:css && npm run lint:js",
+    "test": "npm run lint"
+  }
+}

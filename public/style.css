@@ -1,0 +1,27 @@
+body {
+  background-color: #fdbe31;
+}
+
+.action-btn {
+  font-size: 24px;
+  padding: 14px 18px;
+  min-width: 100px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.red {
+  background-color: palevioletred;
+}
+
+#event-log {
+  height: 150px;
+  overflow-y: scroll;
+  border: 1px solid gray;
+  margin-top: 15px;
+}
+
+#event-log p {
+  margin: 0;
+  font-size: 24px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interactive Canvas Client Fulfillment Sample</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/assistant/interactivecanvas/api/interactive_canvas_loader_eap_dev.js"></script>
+  </head>
+  <body>
+    <h1 id='header' class='header'>Interactive Canvas Client Fulfillment Sample</h1>
+    <button class="action-btn" id="btn-change-color">ChangeColor</button>
+    <button class="action-btn" id="btn-next-level">NextLevel</button>
+    <button class="action-btn" id="btn-number-slot">Number Slot</button>
+    <button class="action-btn" id="btn-home-param">Test Home Param</button>
+    <button class="action-btn" id="btn-user-param">Test User Param</button>
+    <button class="action-btn" id="btn-trigger-scene">Trigger Scene</button>
+    <hr />
+    <h2>Prompt other slots</h2>
+    <button class="action-btn" id="btn-prompt-text">Text</button>
+    <button class="action-btn" id="btn-prompt-confirmation">Confirmation</button>
+    <button class="action-btn" id="btn-prompt-options">Options</button>
+    <button class="action-btn red" id="btn-clear-expect">Reset</button>
+    <div id="event-log"></div>
+  </body>
+  <script src='./src/index.js'></script>
+</html>

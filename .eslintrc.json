@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true
+  },
+  "globals": {
+    "Intl": "readonly",
+    "console": "readonly",
+    "window": "readonly",
+    "document": "writable",
+    "interactiveCanvas": "writable"
+  }
+}
