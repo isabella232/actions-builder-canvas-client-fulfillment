@@ -21,11 +21,8 @@ export const CANVAS_CALLBACKS = {
   onUpdate(data) {
     logEvent('Update:' + JSON.stringify(data));
   },
-  onListeningModeChanged(data) {
+  onInputStatusChanged(data) {
     logEvent('Mic mode change: ' + data);
-  },
-  onPhraseMatched(data) {
-    logEvent('Cmm Matched: ' + JSON.stringify(data));
   },
   onTtsMark(markName) {
     logEvent('[tts]: ' + markName);
